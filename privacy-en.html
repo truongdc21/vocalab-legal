@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Privacy Policy — VocaLab</title>
+<style>
+  :root {
+    --bg: #ffffff;
+    --text: #1a1a1a;
+    --muted: #5a5a5a;
+    --accent: #6b4eff;
+    --border: #e6e6e6;
+    --code-bg: #f5f5f7;
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    background: var(--bg);
+    color: var(--text);
+    line-height: 1.65;
+  }
+  .topbar {
+    border-bottom: 1px solid var(--border);
+    padding: 16px 24px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 12px;
+  }
+  .topbar a.brand {
+    font-weight: 700;
+    font-size: 18px;
+    color: var(--text);
+    text-decoration: none;
+  }
+  .nav a {
+    color: var(--muted);
+    text-decoration: none;
+    margin-left: 18px;
+    font-size: 14px;
+  }
+  .nav a:hover, .nav a.active { color: var(--accent); }
+  main {
+    max-width: 760px;
+    margin: 0 auto;
+    padding: 40px 24px 80px;
+  }
+  h1 { font-size: 30px; margin-bottom: 4px; }
+  h2 { font-size: 21px; margin-top: 40px; border-top: 1px solid var(--border); padding-top: 24px; }
+  h3 { font-size: 17px; margin-top: 24px; }
+  p, li { font-size: 15.5px; color: #2b2b2b; }
+  .updated { color: var(--muted); font-size: 14px; margin-bottom: 28px; }
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 16px 0;
+    font-size: 14px;
+  }
+  th, td {
+    border: 1px solid var(--border);
+    padding: 8px 10px;
+    text-align: left;
+    vertical-align: top;
+  }
+  th { background: var(--code-bg); }
+  a { color: var(--accent); }
+  ul { padding-left: 22px; }
+  strong { font-weight: 600; }
+  footer {
+    text-align: center;
+    color: var(--muted);
+    font-size: 13px;
+    padding: 24px;
+    border-top: 1px solid var(--border);
+    margin-top: 40px;
+  }
+</style>
+</head>
+<body>
+<div class="topbar">
+  <a class="brand" href="index.html">VocaLab</a>
+  <nav class="nav">
+    <a href="privacy-vi.html" class="">Chính sách (VI)</a>
+    <a href="privacy-en.html" class="active">Privacy Policy (EN)</a>
+    <a href="terms.html" class="">Terms of Service</a>
+  </nav>
+</div>
+<main>
+<h1>Privacy Policy</h1>
+<p><strong>Last updated:</strong> September 19, 2026</p>
+<p>This Privacy Policy describes how VocaLab ("we", "our", or "the app"), operated by <strong>Đàng Chí Trường</strong> (an individual developer), collects, uses, stores, and protects your personal information when you use the VocaLab mobile application ("Service").</p>
+<p>By downloading, installing, or using VocaLab, you acknowledge that you have read, understood, and agree to the collection and use of your information as described in this Privacy Policy. If you do not agree, please do not use the app.</p>
+<h2>1. Information We Collect</h2>
+<h3>1.1 Account Information</h3>
+<p>When you register or sign in using <strong>Google, Facebook, or Apple</strong>, we collect:
+- Email address
+- Display name and profile photo, if provided by your chosen sign-in method
+- A unique account identifier (managed securely via Google Firebase Authentication)
+- Account creation date and last sign-in time</p>
+<h3>1.2 Profile Information (Optional)</h3>
+<p>If you choose to complete your profile, we additionally store:
+- Date of birth
+- Gender</p>
+<h3>1.3 Vocabulary &amp; Learning Data</h3>
+<p>To provide the core features of the app, we store:
+- Vocabulary notes and word networks you create (words, synonyms, antonyms, word family, related terms)
+- Lab content generated from your vocabulary (overviews, bilingual books, audio scripts, listening exercises, writing exercises, quizzes, flashcards)
+- Chat messages you send to the in-app AI assistant
+- Learning progress, streaks, streak milestones, and lab usage history</p>
+<h3>1.4 Images</h3>
+<p>When you attach images to vocabulary notes, we store:
+- Photos taken directly with your device camera
+- Images selected from your device's photo library
+- Images sourced from <strong>Unsplash</strong> via the in-app image picker (your search terms are sent directly to Unsplash)</p>
+<p>Images are stored long-term in <strong>Google Firebase Storage</strong> and associated with your vocabulary entries. Images you provide may be sent to AI services for processing if used as input for lab generation.</p>
+<h3>1.5 Voice Recordings</h3>
+<p>When you record pronunciation for a vocabulary word, we store the audio recording long-term in <strong>Google Firebase Storage</strong>, associated with that vocabulary entry. Recordings may also be sent to a third-party speech-assessment service to score your pronunciation (see Section 4).</p>
+<h3>1.6 Device Permissions</h3>
+<p>To enable certain features, we request the following device permissions:
+- <strong>Camera</strong> — for capturing images to attach to vocabulary notes
+- <strong>Microphone</strong> — for recording pronunciation audio
+- <strong>Photo Library / Media Access</strong> — for selecting images from your device
+- <strong>Speech Recognition</strong> (iOS) — for converting spoken audio into text in certain listening/speaking exercises</p>
+<p>We only access these permissions when you actively use the relevant feature. You can revoke permissions at any time via your device settings, which will disable the associated feature.</p>
+<h3>1.7 Device &amp; Diagnostic Identifiers</h3>
+<p>We automatically collect:
+- A device identifier (used to keep your data in sync across devices and to protect against abuse)
+- App instance identifiers generated by Firebase Analytics and Firebase Crashlytics
+- Basic device information (OS version, device model, app version)
+- A push-notification token, linked to your account, used to deliver notifications (streaks, credits, subscription updates)</p>
+<h3>1.8 Subscription &amp; Payment Data</h3>
+<p>If you purchase a subscription or credits:
+- Transaction and subscription status are managed by <strong>RevenueCat</strong>
+- We store your subscription plan, credit balance, and purchase history
+- We do not store your payment card details. Payment processing is handled entirely by the Apple App Store or Google Play Store</p>
+<h3>1.9 Analytics &amp; Crash Data</h3>
+<p>We use <strong>Google Analytics for Firebase</strong> to understand feature usage and app performance, and <strong>Firebase Crashlytics</strong> to collect crash and error reports. Analytics data is pseudonymous: user properties are grouped into ranges/buckets (e.g. streak range, word-count range) rather than exact personal values, and is not used to identify you personally.</p>
+<h2>2. Data Used for Tracking (iOS App Tracking Transparency)</h2>
+<p>On iOS, when you sign in with Facebook, the app checks your <strong>App Tracking Transparency (ATT)</strong> permission before enabling Meta's full login/measurement mode. If you grant ATT permission, the Facebook SDK may use your device's advertising identifier to share limited sign-in/measurement data with Meta in accordance with Meta's own data policy. If you decline, Facebook Sign-In still works in a privacy-restricted ("Limited Login") mode. You can change this choice at any time in your device's <strong>Settings → Privacy &amp; Security → Tracking</strong>.</p>
+<p>We do not use this data ourselves for advertising, and we do not run our own ad network inside the app.</p>
+<h2>3. How We Use Your Information</h2>
+<p>We use the collected information to:
+- Provide, operate, and maintain app functionality
+- Authenticate your identity and secure your account
+- Display images and play voice recordings associated with your vocabulary notes
+- Generate AI-powered learning content using your vocabulary data, images, and other inputs via third-party AI services
+- Score pronunciation accuracy using a third-party speech-assessment service
+- Process and manage your subscription and credits
+- Send push notifications you have opted into (streaks, credits, subscription updates)
+- Analyze pseudonymous usage patterns and diagnose crashes to improve the app
+- Respond to your support requests</p>
+<h2>4. Data Storage &amp; Security</h2>
+<ul>
+<li><strong>Text data</strong> (vocabulary notes, learning history) is stored on <strong>Google Cloud Firestore</strong></li>
+<li><strong>Images and voice recordings</strong> are stored on <strong>Google Firebase Storage</strong></li>
+<li><strong>Backend logic</strong> is processed via <strong>Google Cloud Functions</strong></li>
+<li>All data is located in the <strong>asia-southeast1 (Singapore)</strong> region</li>
+<li>Data sent to AI and speech services may be processed on servers located in other regions, including the United States, in accordance with each provider's data processing terms</li>
+<li>We apply industry-standard security measures including encryption in transit (TLS) and at rest</li>
+<li>Access to your data is strictly limited to delivering the app's services</li>
+</ul>
+<p>While we take reasonable steps to protect your data, no method of transmission or storage is 100% secure. We cannot guarantee absolute security.</p>
+<h2>5. Third-Party Services</h2>
+<p>VocaLab uses the following third-party services. Each is governed by its own privacy policy, which we encourage you to review:</p>
+<table>
+<thead>
+<tr>
+<th>Service</th>
+<th>Purpose</th>
+<th>Privacy Policy</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Google Firebase (Auth, Firestore, Storage, Functions, Remote Config, Cloud Messaging)</td>
+<td>Authentication, data storage (including images &amp; audio), backend logic, push notifications</td>
+<td><a href="https://firebase.google.com/support/privacy">firebase.google.com/support/privacy</a></td>
+</tr>
+<tr>
+<td>Google Analytics for Firebase</td>
+<td>Pseudonymous product usage analytics</td>
+<td><a href="https://firebase.google.com/support/privacy">firebase.google.com/support/privacy</a></td>
+</tr>
+<tr>
+<td>Firebase Crashlytics</td>
+<td>Crash and error reporting</td>
+<td><a href="https://firebase.google.com/support/privacy">firebase.google.com/support/privacy</a></td>
+</tr>
+<tr>
+<td>Google Vertex AI (Gemini)</td>
+<td>AI-powered lab content generation</td>
+<td><a href="https://cloud.google.com/terms/cloud-privacy-notice">cloud.google.com/terms/cloud-privacy-notice</a></td>
+</tr>
+<tr>
+<td>Google Cloud Text-to-Speech</td>
+<td>Converting lesson text into spoken audio</td>
+<td><a href="https://cloud.google.com/terms/cloud-privacy-notice">cloud.google.com/terms/cloud-privacy-notice</a></td>
+</tr>
+<tr>
+<td>Microsoft Azure Cognitive Services (Speech)</td>
+<td>Scoring pronunciation from your voice recordings</td>
+<td><a href="https://privacy.microsoft.com/en-us/privacystatement">privacy.microsoft.com</a></td>
+</tr>
+<tr>
+<td>Google Sign-In</td>
+<td>Sign-in authentication</td>
+<td><a href="https://policies.google.com/privacy">policies.google.com/privacy</a></td>
+</tr>
+<tr>
+<td>Sign in with Apple</td>
+<td>Sign-in authentication</td>
+<td><a href="https://www.apple.com/legal/privacy/">apple.com/legal/privacy</a></td>
+</tr>
+<tr>
+<td>Meta (Facebook Login)</td>
+<td>Sign-in authentication</td>
+<td><a href="https://www.facebook.com/privacy/policy/">facebook.com/privacy/policy</a></td>
+</tr>
+<tr>
+<td>RevenueCat</td>
+<td>Subscription and in-app purchase management</td>
+<td><a href="https://www.revenuecat.com/privacy">revenuecat.com/privacy</a></td>
+</tr>
+<tr>
+<td>Unsplash</td>
+<td>In-app image search and selection</td>
+<td><a href="https://unsplash.com/privacy">unsplash.com/privacy</a></td>
+</tr>
+</tbody>
+</table>
+<p>We are not responsible for the privacy practices of these third-party services.</p>
+<h2>6. AI Processing &amp; Your Data</h2>
+<p>Some features (Overview, Review, Bilingual, Audio, Listening, Writing, Quiz, Chat) send your vocabulary data, images, chat messages, or voice recordings to third-party AI and speech services to generate learning content or assess pronunciation. We currently use <strong>Google Vertex AI (Gemini)</strong>, <strong>Google Cloud Text-to-Speech</strong>, and <strong>Microsoft Azure Cognitive Services (Speech)</strong>.</p>
+<ul>
+<li>Your data is sent to these services solely for the purpose of generating content or scoring within the app</li>
+<li>We do not use your personal data to train AI models</li>
+<li>These providers may process your data in accordance with their own data processing agreements</li>
+<li>You acknowledge that any content you submit as AI input (text, images, or audio) may be processed by these providers</li>
+</ul>
+<h2>7. Data Retention</h2>
+<table>
+<thead>
+<tr>
+<th>Data Type</th>
+<th>Retention Period</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Account &amp; profile information</td>
+<td>Until you delete your account</td>
+</tr>
+<tr>
+<td>Vocabulary notes &amp; word networks</td>
+<td>Until you delete them or your account</td>
+</tr>
+<tr>
+<td>Images &amp; voice recordings</td>
+<td>Until you delete them or your account</td>
+</tr>
+<tr>
+<td>Lab-generated content &amp; chat messages</td>
+<td>Until you delete them or your account</td>
+</tr>
+<tr>
+<td>Learning progress &amp; streaks</td>
+<td>Until you delete your account</td>
+</tr>
+<tr>
+<td>Subscription &amp; credit history</td>
+<td>As required by financial record-keeping obligations</td>
+</tr>
+<tr>
+<td>Pseudonymous analytics &amp; crash data</td>
+<td>Up to 24 months</td>
+</tr>
+</tbody>
+</table>
+<p>When you delete your account, we permanently delete your account data — including profile information, vocabulary content, media files, and subscription linkage — within a short period. Some records (e.g. financial transaction history) may be retained where required by law.</p>
+<h2>8. Children's Privacy</h2>
+<p>VocaLab is intended for users aged <strong>13 and older</strong>. We do not knowingly collect personal information from children under 13. If you believe a child under 13 has provided us with personal data, please contact us immediately and we will delete it promptly.</p>
+<h2>9. Your Rights</h2>
+<p>Depending on your location, you may have the following rights regarding your personal data:
+- <strong>Access</strong> — request a copy of the data we hold about you
+- <strong>Correction</strong> — request correction of inaccurate data
+- <strong>Deletion</strong> — permanently delete your account and associated data at any time from within the app (Settings → Delete Account), or by contacting us
+- <strong>Portability</strong> — request your data in a portable format
+- <strong>Withdraw consent</strong> — withdraw consent at any time, which may affect your ability to use certain features</p>
+<p>To exercise these rights, contact us at <strong>contact.vocalab@gmail.com</strong>. We will respond within a reasonable timeframe.</p>
+<h2>10. International Data Transfers</h2>
+<p>Your data is primarily stored in <strong>Singapore (asia-southeast1)</strong>. However, when using AI-powered or speech-assessment features, your data may be transferred to and processed in other countries, including the United States, where data protection laws may differ from your country. By using these features, you consent to such transfers.</p>
+<h2>11. Changes to This Policy</h2>
+<p>We may update this Privacy Policy from time to time. We will notify you of significant changes by updating the <strong>"Last updated"</strong> date at the top of this page. Your continued use of the app after any changes constitutes your acceptance of the updated policy. We encourage you to review this page periodically.</p>
+<h2>12. Contact Us</h2>
+<p>If you have any questions, concerns, or requests regarding this Privacy Policy, please contact:</p>
+<p><strong>Đàng Chí Trường</strong>
+📧 <a href="mailto:contact.vocalab@gmail.com">contact.vocalab@gmail.com</a></p>
+</main>
+<footer>© 2026 Đàng Chí Trường — VocaLab</footer>
+</body>
+</html>
