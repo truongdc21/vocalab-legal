@@ -95,63 +95,79 @@
 <p>Bằng việc tải xuống, cài đặt hoặc sử dụng VocaLab, bạn xác nhận rằng bạn đã đọc, hiểu và đồng ý với việc thu thập và sử dụng thông tin của mình như mô tả trong Chính sách Bảo mật này. Nếu bạn không đồng ý, vui lòng không sử dụng ứng dụng.</p>
 <h2>1. Thông Tin Chúng Tôi Thu Thập</h2>
 <h3>1.1 Thông Tin Tài Khoản</h3>
-<p>Khi bạn đăng ký hoặc đăng nhập bằng <strong>Google, Facebook hoặc Apple</strong>, chúng tôi thu thập:
-- Địa chỉ email
-- Tên hiển thị và ảnh đại diện, nếu được cung cấp bởi phương thức đăng nhập bạn chọn
-- Một mã định danh tài khoản duy nhất (được quản lý an toàn qua Google Firebase Authentication)
-- Ngày tạo tài khoản và thời điểm đăng nhập gần nhất</p>
+<p>Khi bạn đăng ký hoặc đăng nhập bằng <strong>Google, Facebook hoặc Apple</strong>, chúng tôi thu thập:</p>
+<ul>
+<li>Địa chỉ email</li>
+<li>Tên hiển thị và ảnh đại diện, nếu được cung cấp bởi phương thức đăng nhập bạn chọn</li>
+<li>Một mã định danh tài khoản duy nhất (được quản lý an toàn qua Google Firebase Authentication)</li>
+<li>Ngày tạo tài khoản và thời điểm đăng nhập gần nhất</li>
+</ul>
 <h3>1.2 Thông Tin Hồ Sơ (Tuỳ Chọn)</h3>
-<p>Nếu bạn chọn hoàn tất hồ sơ cá nhân, chúng tôi lưu thêm:
-- Ngày sinh
-- Giới tính</p>
+<p>Nếu bạn chọn hoàn tất hồ sơ cá nhân, chúng tôi lưu thêm:</p>
+<ul>
+<li>Ngày sinh</li>
+<li>Giới tính</li>
+</ul>
 <h3>1.3 Dữ Liệu Từ Vựng &amp; Học Tập</h3>
-<p>Để cung cấp các tính năng cốt lõi của ứng dụng, chúng tôi lưu trữ:
-- Từ vựng và quan hệ từ bạn tạo ra (từ đồng nghĩa, trái nghĩa, họ từ, từ liên quan)
-- Nội dung Thí nghiệm được tạo từ vốn từ của bạn (tổng quan, sách song ngữ, kịch bản audio, bài nghe, bài viết, bài kiểm tra, thẻ ghi nhớ)
-- Tin nhắn bạn gửi cho trợ lý AI trong ứng dụng
-- Tiến trình học tập, chuỗi ngày học, mốc chuỗi ngày, và lịch sử sử dụng Thí nghiệm</p>
+<p>Để cung cấp các tính năng cốt lõi của ứng dụng, chúng tôi lưu trữ:</p>
+<ul>
+<li>Từ vựng và quan hệ từ bạn tạo ra (từ đồng nghĩa, trái nghĩa, họ từ, từ liên quan)</li>
+<li>Nội dung Thí nghiệm được tạo từ vốn từ của bạn (tổng quan, sách song ngữ, kịch bản audio, bài nghe, bài viết, bài kiểm tra, thẻ ghi nhớ)</li>
+<li>Tin nhắn bạn gửi cho trợ lý AI trong ứng dụng</li>
+<li>Tiến trình học tập, chuỗi ngày học, mốc chuỗi ngày, và lịch sử sử dụng Thí nghiệm</li>
+</ul>
 <h3>1.4 Hình Ảnh</h3>
-<p>Khi bạn đính kèm hình ảnh vào từ vựng, chúng tôi lưu trữ:
-- Ảnh chụp trực tiếp bằng camera thiết bị
-- Ảnh chọn từ thư viện ảnh trên thiết bị
-- Ảnh lấy từ <strong>Unsplash</strong> qua công cụ chọn ảnh trong ứng dụng (từ khoá tìm kiếm của bạn được gửi trực tiếp đến Unsplash)</p>
+<p>Khi bạn đính kèm hình ảnh vào từ vựng, chúng tôi lưu trữ:</p>
+<ul>
+<li>Ảnh chụp trực tiếp bằng camera thiết bị</li>
+<li>Ảnh chọn từ thư viện ảnh trên thiết bị</li>
+<li>Ảnh lấy từ <strong>Unsplash</strong> qua công cụ chọn ảnh trong ứng dụng (từ khoá tìm kiếm của bạn được gửi trực tiếp đến Unsplash)</li>
+</ul>
 <p>Hình ảnh được lưu trữ lâu dài trên <strong>Google Firebase Storage</strong> và gắn liền với từ vựng tương ứng. Hình ảnh bạn cung cấp có thể được gửi đến các dịch vụ AI để xử lý nếu được dùng làm dữ liệu đầu vào cho việc tạo Thí nghiệm.</p>
 <h3>1.5 Bản Ghi Âm Giọng Nói</h3>
 <p>Khi bạn ghi âm phát âm cho một từ vựng, chúng tôi lưu trữ bản ghi âm lâu dài trên <strong>Google Firebase Storage</strong>, gắn liền với từ vựng đó. Bản ghi âm cũng có thể được gửi đến dịch vụ chấm điểm phát âm của bên thứ ba (xem Mục 4).</p>
 <h3>1.6 Quyền Truy Cập Thiết Bị</h3>
-<p>Để bật một số tính năng, chúng tôi yêu cầu các quyền truy cập thiết bị sau:
-- <strong>Camera</strong> — để chụp ảnh đính kèm cho từ vựng
-- <strong>Microphone</strong> — để ghi âm phát âm
-- <strong>Thư viện ảnh / Media</strong> — để chọn ảnh từ thiết bị của bạn
-- <strong>Nhận diện giọng nói</strong> (iOS) — để chuyển giọng nói thành văn bản trong một số bài tập nghe/nói</p>
+<p>Để bật một số tính năng, chúng tôi yêu cầu các quyền truy cập thiết bị sau:</p>
+<ul>
+<li><strong>Camera</strong> — để chụp ảnh đính kèm cho từ vựng</li>
+<li><strong>Microphone</strong> — để ghi âm phát âm</li>
+<li><strong>Thư viện ảnh / Media</strong> — để chọn ảnh từ thiết bị của bạn</li>
+<li><strong>Nhận diện giọng nói</strong> (iOS) — để chuyển giọng nói thành văn bản trong một số bài tập nghe/nói</li>
+</ul>
 <p>Chúng tôi chỉ truy cập các quyền này khi bạn chủ động sử dụng tính năng liên quan. Bạn có thể thu hồi quyền bất cứ lúc nào trong Cài đặt thiết bị, việc này sẽ vô hiệu hoá tính năng tương ứng.</p>
 <h3>1.7 Định Danh Thiết Bị &amp; Chẩn Đoán</h3>
-<p>Chúng tôi tự động thu thập:
-- Mã định danh thiết bị (dùng để đồng bộ dữ liệu của bạn giữa các thiết bị và chống lạm dụng)
-- Mã định danh phiên bản ứng dụng do Firebase Analytics và Firebase Crashlytics tạo ra
-- Thông tin cơ bản về thiết bị (phiên bản hệ điều hành, dòng máy, phiên bản ứng dụng)
-- Token thông báo đẩy, gắn với tài khoản của bạn, dùng để gửi thông báo (chuỗi ngày, credit, cập nhật gói đăng ký)</p>
+<p>Chúng tôi tự động thu thập:</p>
+<ul>
+<li>Mã định danh thiết bị (dùng để đồng bộ dữ liệu của bạn giữa các thiết bị và chống lạm dụng)</li>
+<li>Mã định danh phiên bản ứng dụng do Firebase Analytics và Firebase Crashlytics tạo ra</li>
+<li>Thông tin cơ bản về thiết bị (phiên bản hệ điều hành, dòng máy, phiên bản ứng dụng)</li>
+<li>Token thông báo đẩy, gắn với tài khoản của bạn, dùng để gửi thông báo (chuỗi ngày, credit, cập nhật gói đăng ký)</li>
+</ul>
 <h3>1.8 Dữ Liệu Thanh Toán &amp; Gói Đăng Ký</h3>
-<p>Nếu bạn mua gói đăng ký hoặc credit:
-- Giao dịch và trạng thái gói đăng ký được quản lý bởi <strong>RevenueCat</strong>
-- Chúng tôi lưu trữ gói đăng ký, số dư credit và lịch sử giao dịch của bạn
-- Chúng tôi không lưu trữ thông tin thẻ thanh toán của bạn. Việc xử lý thanh toán hoàn toàn do Apple App Store hoặc Google Play Store thực hiện</p>
+<p>Nếu bạn mua gói đăng ký hoặc credit:</p>
+<ul>
+<li>Giao dịch và trạng thái gói đăng ký được quản lý bởi <strong>RevenueCat</strong></li>
+<li>Chúng tôi lưu trữ gói đăng ký, số dư credit và lịch sử giao dịch của bạn</li>
+<li>Chúng tôi không lưu trữ thông tin thẻ thanh toán của bạn. Việc xử lý thanh toán hoàn toàn do Apple App Store hoặc Google Play Store thực hiện</li>
+</ul>
 <h3>1.9 Dữ Liệu Phân Tích &amp; Lỗi Ứng Dụng</h3>
 <p>Chúng tôi sử dụng <strong>Google Analytics for Firebase</strong> để hiểu cách tính năng được sử dụng và hiệu năng ứng dụng, và <strong>Firebase Crashlytics</strong> để thu thập báo cáo lỗi/sự cố. Dữ liệu phân tích mang tính ẩn danh tương đối: các thuộc tính người dùng được nhóm theo khoảng/nhóm (ví dụ: nhóm chuỗi ngày, nhóm số lượng từ) thay vì giá trị cá nhân chính xác, và không được dùng để nhận diện danh tính của bạn.</p>
 <h2>2. Dữ Liệu Dùng Để Theo Dõi (App Tracking Transparency trên iOS)</h2>
 <p>Trên iOS, khi bạn đăng nhập bằng Facebook, ứng dụng sẽ kiểm tra quyền <strong>App Tracking Transparency (ATT)</strong> trước khi bật chế độ đăng nhập/đo lường đầy đủ của Meta. Nếu bạn cấp quyền ATT, SDK Facebook có thể dùng mã định danh quảng cáo của thiết bị để chia sẻ dữ liệu đăng nhập/đo lường giới hạn với Meta theo chính sách dữ liệu riêng của Meta. Nếu bạn từ chối, đăng nhập Facebook vẫn hoạt động ở chế độ hạn chế quyền riêng tư ("Limited Login"). Bạn có thể thay đổi lựa chọn này bất cứ lúc nào trong <strong>Cài đặt thiết bị → Quyền riêng tư &amp; Bảo mật → Theo dõi</strong>.</p>
 <p>Chúng tôi không tự sử dụng dữ liệu này cho mục đích quảng cáo, và không vận hành mạng lưới quảng cáo riêng trong ứng dụng.</p>
 <h2>3. Cách Chúng Tôi Sử Dụng Thông Tin Của Bạn</h2>
-<p>Chúng tôi sử dụng thông tin đã thu thập để:
-- Cung cấp, vận hành và duy trì hoạt động của ứng dụng
-- Xác thực danh tính và bảo mật tài khoản của bạn
-- Hiển thị hình ảnh và phát bản ghi âm gắn với từ vựng của bạn
-- Tạo nội dung học tập bằng AI dựa trên dữ liệu từ vựng, hình ảnh và các dữ liệu đầu vào khác của bạn thông qua dịch vụ AI bên thứ ba
-- Chấm điểm độ chính xác phát âm bằng dịch vụ chấm điểm giọng nói của bên thứ ba
-- Xử lý và quản lý gói đăng ký, credit của bạn
-- Gửi thông báo đẩy mà bạn đã đồng ý nhận (chuỗi ngày, credit, cập nhật gói đăng ký)
-- Phân tích dữ liệu sử dụng ẩn danh và chẩn đoán lỗi để cải thiện ứng dụng
-- Phản hồi các yêu cầu hỗ trợ của bạn</p>
+<p>Chúng tôi sử dụng thông tin đã thu thập để:</p>
+<ul>
+<li>Cung cấp, vận hành và duy trì hoạt động của ứng dụng</li>
+<li>Xác thực danh tính và bảo mật tài khoản của bạn</li>
+<li>Hiển thị hình ảnh và phát bản ghi âm gắn với từ vựng của bạn</li>
+<li>Tạo nội dung học tập bằng AI dựa trên dữ liệu từ vựng, hình ảnh và các dữ liệu đầu vào khác của bạn thông qua dịch vụ AI bên thứ ba</li>
+<li>Chấm điểm độ chính xác phát âm bằng dịch vụ chấm điểm giọng nói của bên thứ ba</li>
+<li>Xử lý và quản lý gói đăng ký, credit của bạn</li>
+<li>Gửi thông báo đẩy mà bạn đã đồng ý nhận (chuỗi ngày, credit, cập nhật gói đăng ký)</li>
+<li>Phân tích dữ liệu sử dụng ẩn danh và chẩn đoán lỗi để cải thiện ứng dụng</li>
+<li>Phản hồi các yêu cầu hỗ trợ của bạn</li>
+</ul>
 <h2>4. Lưu Trữ &amp; Bảo Mật Dữ Liệu</h2>
 <ul>
 <li><strong>Dữ liệu văn bản</strong> (từ vựng, lịch sử học tập) được lưu trên <strong>Google Cloud Firestore</strong></li>
@@ -283,12 +299,14 @@
 <h2>8. Quyền Riêng Tư Của Trẻ Em</h2>
 <p>VocaLab dành cho người dùng từ <strong>13 tuổi trở lên</strong>. Chúng tôi không cố ý thu thập thông tin cá nhân từ trẻ em dưới 13 tuổi. Nếu bạn cho rằng một trẻ em dưới 13 tuổi đã cung cấp dữ liệu cá nhân cho chúng tôi, vui lòng liên hệ ngay để chúng tôi xoá dữ liệu đó kịp thời.</p>
 <h2>9. Quyền Của Bạn</h2>
-<p>Tuỳ theo khu vực của bạn, bạn có thể có các quyền sau đối với dữ liệu cá nhân của mình:
-- <strong>Truy cập</strong> — yêu cầu bản sao dữ liệu chúng tôi đang lưu về bạn
-- <strong>Chỉnh sửa</strong> — yêu cầu chỉnh sửa dữ liệu không chính xác
-- <strong>Xoá</strong> — xoá vĩnh viễn tài khoản và dữ liệu liên quan bất cứ lúc nào ngay trong ứng dụng (Cài đặt → Xoá Tài Khoản), hoặc bằng cách liên hệ với chúng tôi
-- <strong>Di chuyển dữ liệu</strong> — yêu cầu nhận dữ liệu của bạn ở định dạng có thể di chuyển được
-- <strong>Rút lại sự đồng ý</strong> — rút lại sự đồng ý bất cứ lúc nào, việc này có thể ảnh hưởng đến khả năng sử dụng một số tính năng</p>
+<p>Tuỳ theo khu vực của bạn, bạn có thể có các quyền sau đối với dữ liệu cá nhân của mình:</p>
+<ul>
+<li><strong>Truy cập</strong> — yêu cầu bản sao dữ liệu chúng tôi đang lưu về bạn</li>
+<li><strong>Chỉnh sửa</strong> — yêu cầu chỉnh sửa dữ liệu không chính xác</li>
+<li><strong>Xoá</strong> — xoá vĩnh viễn tài khoản và dữ liệu liên quan bất cứ lúc nào ngay trong ứng dụng (Cài đặt → Xoá Tài Khoản), hoặc bằng cách liên hệ với chúng tôi</li>
+<li><strong>Di chuyển dữ liệu</strong> — yêu cầu nhận dữ liệu của bạn ở định dạng có thể di chuyển được</li>
+<li><strong>Rút lại sự đồng ý</strong> — rút lại sự đồng ý bất cứ lúc nào, việc này có thể ảnh hưởng đến khả năng sử dụng một số tính năng</li>
+</ul>
 <p>Để thực hiện các quyền này, vui lòng liên hệ <strong>contact.vocalab@gmail.com</strong>. Chúng tôi sẽ phản hồi trong thời gian hợp lý.</p>
 <h2>10. Chuyển Dữ Liệu Quốc Tế</h2>
 <p>Dữ liệu của bạn chủ yếu được lưu trữ tại <strong>Singapore (asia-southeast1)</strong>. Tuy nhiên, khi sử dụng các tính năng AI hoặc chấm điểm giọng nói, dữ liệu của bạn có thể được chuyển đến và xử lý tại quốc gia khác, bao gồm Hoa Kỳ, nơi luật bảo vệ dữ liệu có thể khác với quốc gia của bạn. Bằng việc sử dụng các tính năng này, bạn đồng ý với việc chuyển dữ liệu như vậy.</p>
